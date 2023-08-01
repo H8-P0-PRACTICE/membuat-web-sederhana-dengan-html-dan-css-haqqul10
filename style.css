@@ -17,9 +17,13 @@ body {
   align-items: center;
 }
 
-.navbar h2 {
+.navbar a h2 {
   font-size: 24px;
   font-weight: 600;
+}
+.navbar a {
+  color: #03045e;
+  text-decoration: none;
 }
 
 .navbar ul {
