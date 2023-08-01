@@ -1,1 +1,91 @@
-/* write your code here */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fbf8cc;
+  font-family: "Poppins", sans-serif;
+  color: #03045e;
+}
+.container {
+  height: 100vh;
+}
+.navbar {
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+  justify-items: center;
+}
+.navbar ul li {
+  list-style-type: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #03045e;
+  font-weight: 400;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+.media-sosial img {
+  width: 26px;
+  margin-left: 20px;
+}
+
+.hero {
+  /* margin-top: 30px; */
+  padding: 100px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero .title span,
+p {
+  font-size: 28px;
+  font-weight: 500;
+}
+.hero .title h1 {
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 116px;
+}
+.hero .image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .image img {
+  width: 394px;
+}
+.hero .title .btn-resume {
+  margin-top: 30px;
+  padding: 16px 38px;
+  background-color: transparent;
+  border-radius: 6px;
+  border: 1px solid var(--dark-brown, #474306);
+  background-color: #f5ee84;
+  box-shadow: 11px 5px 12px 0px #f5ee84;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero .title .btn-resume:hover {
+  background-color: #fbef42;
+}
